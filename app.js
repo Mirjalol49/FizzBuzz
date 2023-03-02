@@ -17,7 +17,8 @@ elForm.addEventListener("submit", function(evt) {
 
     if (inputValue % 5 === 0) {
         newString += "Buzz😊"
-    } else { elResult.textContent = newString || inputValue + ", 3ga va 5ga bo'linmaydi😡" }
+    }
+    elResult.textContent = newString || inputValue + ", 3ga va 5ga bo'linmaydi😡"
 });
 
 function refreshPage() {
